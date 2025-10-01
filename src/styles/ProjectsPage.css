@@ -8,22 +8,28 @@
   color: white;
   padding: 8rem 0 4rem;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 100px;
   position: relative;
   overflow: hidden;
 }
 
 /* Hero Background Variants */
 .projects-hero.completed {
-  background: linear-gradient(135deg, #4CAF50, #66BB6A);
+  background: url('../assets/images/completed-header.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .projects-hero.ongoing {
-  background: linear-gradient(135deg, #FF9800, #FFB74D);
+  background: url('../assets/images/ongoing-header.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .projects-hero.upcoming {
-  background: linear-gradient(135deg, #4169E1, #6495ED);
+  background: url('../assets/images/upcoming-header.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .projects-hero-container {

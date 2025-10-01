@@ -34,13 +34,15 @@ ul {
 
 /* FIXED: Updated global page hero styles */
 .page-hero {
-  background: linear-gradient(135deg, #4169E1, #6495ED);
+  background-image: url('../assets/images/about-header.png'); /* Use relative path */
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensures image always covers area */
+  background-position: center center; /* Centers image both axes */
   color: white;
   padding: 8rem 0 4rem;
   text-align: center;
-  margin-top: 120px; /* CHANGED: Increased from 80px to 120px to account for 100px header */
+  margin-top: 100px;
 }
-
 .page-hero-container {
   max-width: 1200px;
   margin: 0 auto;
