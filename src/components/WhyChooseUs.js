@@ -32,11 +32,6 @@ const features = [
     title: 'In-house Team of Experts', 
     description: 'A complete in-house team: architects, engineers, designers, managers.' 
   },
-  { 
-    icon: '💻', 
-    title: 'Technology-driven Approach', 
-    description: 'Modern technology and software ensure high-quality results and timely progress.' 
-  },
 ];
 
 const WhyChooseUs = () => (

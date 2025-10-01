@@ -1,6 +1,9 @@
 import React from 'react';
 import '../styles/HomePage.css';
 import eksGroupImage from '../assets/images/eks-group.jpg';
+import civil from '../assets/images/civil.png';
+import electrical from '../assets/images/electrical.png';
+import mech from '../assets/images/mech.png'
 
 const HomePage = () => {
   return (
@@ -100,19 +103,19 @@ const HomePage = () => {
         <div className="offer-grid">
           <div className="offer-item">
             <div className="offer-img-wrapper">
-              <img src="/images/service-civil.jpg" alt="Civil Construction" className="offer-img" />
+              <img src={civil} alt="Civil Construction" className="offer-img" />
             </div>
             <div className="offer-item-title">Civil Construction</div>
           </div>
           <div className="offer-item">
             <div className="offer-img-wrapper">
-              <img src="/images/service-electrical.jpg" alt="Electrical Installation" className="offer-img" />
+              <img src={electrical} alt="Electrical Installation" className="offer-img" />
             </div>
             <div className="offer-item-title">Electrical Installation</div>
           </div>
           <div className="offer-item">
             <div className="offer-img-wrapper">
-              <img src="/images/service-mechanical.jpg" alt="Mechanical Works" className="offer-img" />
+              <img src={mech} alt="Mechanical Works" className="offer-img" />
             </div>
             <div className="offer-item-title">Mechanical Works</div>
           </div>

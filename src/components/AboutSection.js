@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import '../styles/AboutSection.css';
+import about from '../assets/images/eks-about.png';
 
 const AboutSection = () => {
   return (
@@ -42,7 +43,7 @@ const AboutSection = () => {
 
           <div className="about-visual">
             <img
-              src="D:\eks-sample\EKS-project\src\assets\eks-group.jpg"
+              src={about}
               alt="About EKS Construction"
               className="about-image"
             />
