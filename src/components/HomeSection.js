@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/HomePage.css';
+import eksGroupImage from '../assets/images/eks-group.jpg';
 
 const HomePage = () => {
   return (
@@ -22,10 +23,14 @@ const HomePage = () => {
               <a href="#services" className="learn-more-btn">Learn More</a>
             </div>
             <div className="about-visual">
-              <img 
-                src="/images/about-img.jpg"
-                alt="eks construction site"
+              <img
+                src={eksGroupImage}
+                alt="EKS Construction Group"
                 className="about-image"
+                onError={(e) => {
+                  console.log('Image failed to load:', e.target.src);
+                  e.target.style.display = 'none';
+                }}
               />
             </div>
           </div>
